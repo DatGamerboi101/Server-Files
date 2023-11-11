@@ -33,7 +33,7 @@ If you want to run the Protoshock server using Docker here is the simplest way t
 ``docker run -d -p 8880:8880 gizzyuwu/protoshock:main``
 
 If you prefer Docker Compose you can use this
-````yml
+```yml
 version: '3'
 services:
   protoshock-server:

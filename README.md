@@ -30,7 +30,7 @@ To change the server you’re connected to, go to your Protoshock installation d
 # Using Docker
 
 If you want to run the Protoshock server using Docker here is the simplest way to get it running
-``Docker run -d -p 8880:8880 gizzyuwu/protoshock:main``
+``docker run -d -p 8880:8880 gizzyuwu/protoshock:main``
 
 If you prefer Docker Compose you can use this
 ````yml
